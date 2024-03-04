@@ -3,11 +3,11 @@ package command
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/proxy"
+	"github.com/toxeh/xray-core/common"
+	"github.com/toxeh/xray-core/core"
+	"github.com/toxeh/xray-core/features/inbound"
+	"github.com/toxeh/xray-core/features/outbound"
+	"github.com/toxeh/xray-core/proxy"
 	grpc "google.golang.org/grpc"
 )
 

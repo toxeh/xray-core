@@ -5,10 +5,10 @@ import (
 	"io"
 	"net"
 
-	"github.com/xtls/xray-core/common/buf"
-	xnet "github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/signal/done"
+	"github.com/toxeh/xray-core/common/buf"
+	xnet "github.com/toxeh/xray-core/common/net"
+	"github.com/toxeh/xray-core/common/net/cnc"
+	"github.com/toxeh/xray-core/common/signal/done"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 )

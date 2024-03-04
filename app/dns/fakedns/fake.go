@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/cache"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/toxeh/xray-core/common"
+	"github.com/toxeh/xray-core/common/cache"
+	"github.com/toxeh/xray-core/common/net"
+	"github.com/toxeh/xray-core/features/dns"
 )
 
 type Holder struct {

@@ -1,8 +1,8 @@
 package tcp
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/toxeh/xray-core/common"
+	"github.com/toxeh/xray-core/transport/internet"
 )
 
 const protocolName = "tcp"

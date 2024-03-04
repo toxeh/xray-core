@@ -1,6 +1,6 @@
 package outbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/toxeh/xray-core/common/errors/errorgen
 
 import (
 	"bytes"
@@ -12,25 +12,25 @@ import (
 	"unsafe"
 
 	utls "github.com/refraction-networking/utls"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/xudp"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/proxy/vless/encoding"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/reality"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/toxeh/xray-core/common"
+	"github.com/toxeh/xray-core/common/buf"
+	"github.com/toxeh/xray-core/common/net"
+	"github.com/toxeh/xray-core/common/protocol"
+	"github.com/toxeh/xray-core/common/retry"
+	"github.com/toxeh/xray-core/common/session"
+	"github.com/toxeh/xray-core/common/signal"
+	"github.com/toxeh/xray-core/common/task"
+	"github.com/toxeh/xray-core/common/xudp"
+	"github.com/toxeh/xray-core/core"
+	"github.com/toxeh/xray-core/features/policy"
+	"github.com/toxeh/xray-core/features/stats"
+	"github.com/toxeh/xray-core/proxy/vless"
+	"github.com/toxeh/xray-core/proxy/vless/encoding"
+	"github.com/toxeh/xray-core/transport"
+	"github.com/toxeh/xray-core/transport/internet"
+	"github.com/toxeh/xray-core/transport/internet/reality"
+	"github.com/toxeh/xray-core/transport/internet/stat"
+	"github.com/toxeh/xray-core/transport/internet/tls"
 )
 
 func init() {

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/socks"
+	"github.com/toxeh/xray-core/common/protocol"
+	"github.com/toxeh/xray-core/common/serial"
+	"github.com/toxeh/xray-core/proxy/socks"
 	"google.golang.org/protobuf/proto"
 )
 

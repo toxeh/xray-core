@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/quic-go/quic-go"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/toxeh/xray-core/common"
+	"github.com/toxeh/xray-core/common/buf"
+	"github.com/toxeh/xray-core/common/net"
+	"github.com/toxeh/xray-core/transport/internet"
 )
 
 type sysConn struct {

@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/toxeh/xray-core/common"
+	"github.com/toxeh/xray-core/common/net"
+	"github.com/toxeh/xray-core/common/uuid"
+	"github.com/toxeh/xray-core/features/dns"
 	"golang.org/x/sync/errgroup"
 )
 

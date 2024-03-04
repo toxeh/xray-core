@@ -5,11 +5,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	. "github.com/xtls/xray-core/proxy/socks"
+	"github.com/toxeh/xray-core/common"
+	"github.com/toxeh/xray-core/common/buf"
+	"github.com/toxeh/xray-core/common/net"
+	"github.com/toxeh/xray-core/common/protocol"
+	. "github.com/toxeh/xray-core/proxy/socks"
 )
 
 func TestUDPEncoding(t *testing.T) {

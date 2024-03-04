@@ -1,13 +1,13 @@
 package command
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/toxeh/xray-core/common/errors/errorgen
 
 import (
 	"context"
 
-	"github.com/xtls/xray-core/app/log"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/core"
+	"github.com/toxeh/xray-core/app/log"
+	"github.com/toxeh/xray-core/common"
+	"github.com/toxeh/xray-core/core"
 	grpc "google.golang.org/grpc"
 )
 

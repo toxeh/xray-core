@@ -3,9 +3,9 @@ package encoding
 import (
 	"io"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/proxy/vless"
+	"github.com/toxeh/xray-core/common/buf"
+	"github.com/toxeh/xray-core/common/protocol"
+	"github.com/toxeh/xray-core/proxy/vless"
 	"google.golang.org/protobuf/proto"
 )
 
